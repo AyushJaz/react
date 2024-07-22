@@ -1,9 +1,11 @@
 
+import Ayush from "./ayush.jsx"
+
 function App() {
   
 
   return (
-  <h1>Chai or Code | Ayush Jaiswal</h1>
+    <Ayush />
   )
 }
 
