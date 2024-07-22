@@ -16,7 +16,7 @@ mainContainer.appendChild(newElement);
 }
 
 
-const reactElement={
+const anotherElement={
     type:'a',
     props:{
         href:'https://google.com',
@@ -24,6 +24,8 @@ const reactElement={
     },
     children:'Click me to visit google'
 }
+
+
 const mainContainer=document.getElementById('root'); 
  
-customRender(reactElement,mainContainer);
+customRender(anotherElement,mainContainer);
